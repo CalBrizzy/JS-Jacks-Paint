@@ -8,8 +8,6 @@ function configureListeners() {
             getProductInfo(paintId)
             addOpacity(paintId)
         })
-    }
-    for (let i = 0; i < images.length; i++) {
         // iterate over images and add mouseout event listeners
         images[i].addEventListener('mouseout', function() {
             let paintId = images[i].id
